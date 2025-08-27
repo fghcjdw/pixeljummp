@@ -21,16 +21,6 @@ export default defineConfig({
     },
   },
   root: path.resolve(__dirname, "client"),
-  server: {
-    host: true,
-    port: 5000,
-    allowedHosts: [
-      "localhost",
-      "f4479bc4-f856-412f-910d-5a4543e4ecd3-00-2unh4mpoyna68.riker.replit.dev",
-      ".replit.dev",
-      ".riker.replit.dev"
-    ],
-  },
   build: {
     outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
